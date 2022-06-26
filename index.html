@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Libre+Franklin&family=Quicksand&display=swap"
+                rel="stylesheet">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <!-- ----------------------------------------------------------- SIDE BAR --------------------------------------------------- -->
+        <div class="side-bar">
+
+                <div class="logo">
+                        <p class="logo-f">F</p>
+                        <p class="my-name">Fatma</p>
+                        <p class="job-title">Web Developer</p>
+                </div>
+
+                <ul class="nav-list">
+                        <li class="empty"></li>
+                        <li class="list">About</li>
+                        <li class="list">My Skills</li>
+                        <li class="list">Work</li>
+                        <li class="list">Contact</li>
+                        <li class="list">Blog</li>
+                </ul>
+
+                <div class="icons">
+                        <span><i class="fa-brands fa-linkedin-in"></i></span>
+                        <span><i class="fa-brands fa-github"></i></span>
+                        <span><i class="fa-brands fa-youtube-square"></i></span>
+                </div>
+
+        </div>
+        <!-- --------------------------------------------------END OF SIDE BAR ---------------------------------------------------- -->
+        <section class="home">
+                <div class="sound">
+                        <span><i class="fa-brands fa-soundcloud"></i></span>
+                        <span>Sound <span class="off" id="off" onClick="togglePlay()">OFF</span></span>
+                </div>
+
+                <div class="text">
+                        <span>H</span> <span>i</span><span>,</span> <br>
+                        <span>I</span> <span>'</span> <span>m</span> <span class="F">F</span>
+                        <span>a</span> <span>t</span> <span>m</span> <span>a</span><span>,</span> <br>
+                        <span>W</span><span>e</span><span>b</span>
+                        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+                        <p class="grey-text">Front End Developer</p>
+                </div>
+
+                <!-- <button class="btn success">Success</button> -->
+                <button class="btn">Contact me! </button>
+                <br>
+                <div class="scroll"> Scroll down</div>
+                <!--  -->
+                <i class="fa-solid fa-arrow-down"></i>
+
+                <div class="scroll-r"> Scroll down</div>
+                <!--  -->
+                <i class="fa-solid fa-arrow-down arrow-r"></i>
+                <audio id="myAudio" src="./audio/both-of-us-14037.mp3">
+                </audio>
+        </section>
+        
+<!-- ---------------------------------------------------------END OF HOME ---------------------------------------------------- -->
+        <section class="portfolio">
+                <h2>My Portfolio</h2>
+                <p>A small gallery of recent projects chosen by me.
+                        I've done them all together with amazing people from companies <br>
+                         around the globe. It's only a drop in the ocean compared
+                         to the entire list. <br>
+                        Interested to see some more? Visit <a href="#">my work</a> page.</p>
+
+                        <button>See more!</button>
+        </section>
+        <section class="examples">
+                <div class="row">
+                        <div class="line">
+                                <img src="./img/iPhone 13 Mockup.png" alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more">
+                        </div>
+                        <div class="line">
+                                <img src="./img/2.png" alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more2">
+                        </div>
+                        <div class="line">
+                                <img src="./img/design4.png" alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more3">
+                        </div>
+                        <div class="line">
+                                <img src="./img/chat - Copy.png" alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more4">
+                        </div>
+                     
+                </div>
+                <div class="row">
+                        <div class="line">
+                                <img src="./img/f8.png" alt="" class="main">
+                                <!-- <img src="./img/circle.png" alt="" class="more5"> -->
+                        </div>
+                        <div class="line">
+                                <img src="./img/macbook-pro-16-mockup-front-view.png"alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more6">
+                        </div>
+                        <div class="line">
+                                <img src="./img/Grocery Store.png"class="main">
+                                <img src="./img/circle.png" alt="" class="more7">
+                        </div>
+                        <div class="line">
+                                <img src="./img/2021-2022.png" alt="" class="main">
+                                <img src="./img/circle.png" alt="" class="more8">
+                        </div>
+                     
+                </div>
+        </section>
+
+
+
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

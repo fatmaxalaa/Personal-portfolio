@@ -1,0 +1,535 @@
+
+
+
+*{
+        margin: 0;
+        font-family: sans-serif;
+        
+}
+body{
+        background-color: #1D1D1D;
+          transition: all 0.3s ease-out;
+}
+
+/* ------------------------------------------------------------- SIDE BAR ----------------------------------------------------- */
+.side-bar{
+        background-color: #181818;
+        width: 9%;
+        height: 100vh;
+        text-align: center;
+        position: fixed;
+
+}
+.side-bar .logo {
+        background-color: black;
+        color: white;
+        
+}
+
+/* .side-bar .logo .side-img {
+        width: 130px;
+        height: 130px;
+        position: relative;
+        top: 0%;
+        left: 10px;
+} */
+
+.side-bar .logo .logo-f {
+
+        font-size: 80px;
+        color: #FD2155;
+        font-weight: 700;
+        margin-left: 10px;
+        text-shadow: -6px 0px   #08FDD8;
+       
+
+}
+
+.side-bar .logo .my-name{
+        font-size: 25px;
+        font-weight: 600;
+}
+
+.side-bar .logo .job-title {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 15px;
+        color: #a5a5a5;
+}
+.nav-list
+{
+        color: white;
+        list-style: none;
+        padding: 0px;
+}
+.nav-list .empty {
+        padding: 30px;
+        border-bottom: 1px solid #282828;
+}
+.nav-list .list {
+        padding: 15px;
+        border-bottom: 1px solid #282828;
+        color: #909096;
+        cursor: pointer;
+}
+.nav-list .list:hover {
+        color: #08FDD8;
+}
+/* .nav-list .list:nth-child(6){
+        padding: 20px;
+        border-bottom: 1px solid #282828;
+        color: #08FDD8;
+} */
+.side-bar .icons {
+        margin-top: 40%;
+        color: #909096;
+}
+.side-bar .icons .fa-brands  {
+        padding: 5px;
+        font-size: 17px;
+}
+.side-bar .icons .fa-brands:hover{
+        color: #08FDD8;
+}
+
+/* ----------------------------------------------------------END OF SIDE BAR ----------------------------------------------------- */
+
+.home {
+        width:90% ;
+        float: right;
+}
+
+.home .sound {
+        float: right;
+        padding: 25px;
+        word-spacing: 5px;
+        
+}
+.home .sound span{
+        font-size: 18px;
+        font-weight: 100;
+}
+.home .sound .off {
+        color: #FD2155;
+        font-weight: 100;
+        font-size: 18px;
+        cursor: pointer;
+}
+.home .sound .fa-soundcloud {
+        color: #FD2155;
+        font-size: 18px;
+}
+
+.home .text {
+        margin-left: 5%;
+        margin-top: 12%;
+}
+.home span{
+        font-size: 90px;
+        color: white;
+        font-weight: 700;
+}
+.home .F{
+        font-size: 90px;
+        color: #FD2155;
+        font-weight: 700;
+        margin-left: 25px;
+        text-shadow: -6px 0px   #08FDD8;
+}
+.home .grey-text {
+        font-size: 20px;
+        margin-top: 5%;
+        color: #909096;
+}
+
+.home span:nth-child(26):after {
+        content: "<h1/>";
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 20px;
+}
+
+.home span:nth-child(1):before {
+        content: "<h1/>";
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 20px;
+        position:absolute;
+        top: 19%;
+        left: 12%;
+}
+
+.home span:nth-child(2):before {
+        content: "<body>";
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 20px;
+        position:absolute;
+        top: 6%;
+        left: 11%;
+}
+.home span:nth-child(3):before {
+        content: "</html>";
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 20px;
+        position:absolute;
+        top: 2%;
+        left: 10%;
+}
+
+.text span:hover{
+        color: #08FDD8;
+}
+@keyframes ex {
+  0%   {transform:translateX(0)  ;}
+  50%  {transform: translateY(19px);}
+  100% {transform: translateX(0);}
+}
+
+.home .grey-text::before{
+        content: "<p>";
+        position:absolute;
+        top: 67%;
+        left: 13%;
+        opacity: 0.5;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+         letter-spacing: 4px;
+}
+.home .grey-text::after{
+        content: "<p/>";
+        position:absolute;
+        top: 76%;
+        left: 13%;
+        opacity: 0.5;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+}
+.home .btn {
+        margin-top: 6%;
+        width: 220px;
+        height: 50px;
+        margin-left: 4%;
+        background:none;
+        border-color: #08FDD8;
+        color:#08FDD8;
+        font-size: 16px;
+        letter-spacing: 2px;
+        cursor: pointer;
+}
+.home .btn:hover{
+        background-color: #08FDD8;
+        color: #282828;
+}
+
+.home .scroll {
+        font-size: 14px;
+        font-weight:200 ;
+        writing-mode: vertical-rl;
+       position: absolute;
+       left: 10%;
+       top: 80%;
+       color: white;
+       font-weight: 400;
+       animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+.home .fa-arrow-down{
+        color: white;
+}
+.home .scroll-r {
+        font-size: 14px;
+        font-weight:200 ;
+       /* transform: translateY(0deg); */
+        writing-mode: vertical-rl;
+       position: absolute;
+       left: 97%;
+       top: 80%;
+       color: white;
+       font-weight: 400;
+       animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {transform:translateX(0)  ;}
+  50%  {transform: translateY(-15px);}
+  100% {transform: translateX(0);}
+}
+
+.home .arrow-r{
+        color: white;
+        position: absolute;
+       left: 97%;
+       top: 93%;
+}
+
+/* ----------------------------------------------------------END OF HOME ---------------------------------------------------- */
+
+
+.portfolio{
+        width: 90%;
+        float: right;
+        background-color: #1d1d1d;
+        margin-top: 15%;
+        padding-bottom: 5%;
+}
+.portfolio::after{
+        content: "<h2>";
+        position:absolute;
+        top: 121%;
+        left: 12%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: white;
+}
+
+.portfolio h2{
+        color: #08FDD8;
+        margin-left: 4%;
+        font-size: 70px;
+}
+
+.portfolio h2::after{
+        content: "<h2/>";
+        position:absolute;
+        top: 135%;
+        left: 12%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+}
+
+.portfolio p::before{
+        content: "<p>";
+        position:absolute;
+        top: 138%;
+        left: 12%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: white;
+        font-weight: 300;
+}
+.portfolio p::after{
+        content: "<p/>";
+        position:absolute;
+        top: 151%;
+        left: 12%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: white;
+        font-weight: 300;
+}
+
+
+.portfolio p {
+        color: white;
+        margin-left: 4%;
+        margin-top: 3%;
+        line-height: 23px;
+}
+
+.portfolio a{
+        color: #08FDD8;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 3px;
+}
+
+.portfolio button{
+        margin-top: 6%;
+        width: 220px;
+        height: 50px;
+        margin-left: 4%;
+        background:none;
+        border-color: #08FDD8;
+        color:#08FDD8;
+        font-size: 16px;
+        letter-spacing: 2px;
+        cursor: pointer;
+       position: absolute;
+       left:77%;
+       top: 130%;
+}
+.portfolio button:hover{
+         background-color: #08FDD8;
+        color: #282828;
+}
+
+/* ---------------------------------------------------END OF portfolio ------------------------------------------------------------- */
+
+.examples{
+        float: right;
+        width: 91%;
+}
+
+.examples .row{
+        display: flex;
+        /* justify-content: s; */
+
+}
+.examples .row .main{
+        width: 345.5px;
+        filter: brightness(60%);
+        transition: transform 2s;
+}
+.examples .row .main:hover{
+        translate: scale(1.2);
+}
+/* .examples .line{
+        position: relative;
+} */
+.examples .line::after{
+        content: "<section>";
+        position:absolute;
+        top: 156.5%;
+        left: 10%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: #6e6e75;
+        font-weight: 300;
+        font-size: 14px;
+}
+.examples .line::before{
+        content: "<section/>";
+        position:absolute;
+        top: 221%;
+        left: 10%;
+        opacity: 0.2;
+        font-style: italic;
+        font-family: 'La Belle Aurore', cursive;
+        letter-spacing: 4px;
+        color: #6e6e75;
+        font-weight: 300;
+        font-size: 14px;
+}
+
+
+
+
+/* .examples .row::before{
+
+        content: "View Project";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 174%;
+        left: 17%;
+        z-index: 1;
+        background-color: #08FDD8;
+        padding: 15px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        color:#1d1d1d;
+        font-size: 16px;
+} */
+
+.examples .row .line{
+        margin-bottom: -5px;
+}
+.examples .row .more {
+        width: 80px;
+        position: absolute;
+        top: 170%;
+        left: 18%;
+}
+
+.examples .row .more2 {
+        width: 80px;
+        position: absolute;
+        top: 170%;
+        left: 40%;
+}
+.examples .row .more3 {
+        width: 80px;
+        position: absolute;
+        top: 170%;
+        left: 63.5%;
+}
+.examples .row .more4 {
+        width: 80px;
+        position: absolute;
+        top: 170%;
+        left: 87%;
+}
+.more , .more2 , .more3 , .more4{
+        display: none;
+}
+
+.examples .row .line:hover :nth-child(2){
+        display: block;
+}
+.examples .row .line:hover :nth-child(1){
+        filter: brightness(100%);
+}
+.examples .row .more5 {
+        width: 80px;
+        position: absolute;
+        top: 200%;
+        left: 18%;
+}
+
+.examples .row .more6 {
+        width: 80px;
+        position: absolute;
+        top: 200%;
+        left: 40%;
+}
+.examples .row .more7 {
+        width: 80px;
+        position: absolute;
+        top: 200%;
+        left: 63.5%;
+}
+.examples .row .more8 {
+        width: 80px;
+        position: absolute;
+        top: 200%;
+        left: 87%;
+}
+.more5 , .more6 , .more7 , .more8{
+        display: none;
+}
+
+.examples .row .line:hover :nth-child(2){
+        display: block;
+}
+.examples .row .line:hover :nth-child(1){
+        filter: brightness(100%);
+}
+  
+
